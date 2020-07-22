@@ -1,0 +1,27 @@
+<style>
+.topright {
+  background-color: var(--alternate-color);
+  color: var(--text-color);
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 1em;
+  right: 1em;
+  border-radius: 50%;
+  height:10px;
+  width:10px;
+}
+</style>
+
+<script>
+function toggleTheme() {
+  var element = document.body;
+  element.classList.toggle("dark-mode");
+}
+
+document
+  .querySelectorAll('.remark-slide-content').forEach(el => {
+    el.innerHTML +=
+    '<button type="button" class = "topright" onclick="toggleTheme();"></button>';
+  });
+</script>
