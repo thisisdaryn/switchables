@@ -92,6 +92,10 @@
   --code-string-color: #EF798A;
 }
 
+.topright {
+  fill: var(--title-slide-text-color)
+}
+
 
 html {
   font-size: var(--base-font-size);
