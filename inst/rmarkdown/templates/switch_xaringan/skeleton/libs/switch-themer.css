@@ -59,6 +59,7 @@
   --header-background-color: #2180CE;
   --header-background-text-color: #FFFFFF;
   --code-string-color: #EF798A;
+  --background-image-url: url("www/moon.svg");
 
   --primary: #2180CE;
   --secondary: #D17529;
@@ -90,6 +91,7 @@
   --code-color: #FFFFFF;
   --code-inline-color: #B0FF92;
   --code-string-color: #EF798A;
+  --background-image-url: url("www/sun.svg");
 }
 
 .topright {

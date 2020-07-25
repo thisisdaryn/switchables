@@ -32,6 +32,10 @@ xaringanExtra::use_extra_styles(
 )
 ```
 
+
+
+
+
 ## H2 slide title.
 
 This is a sentence. **This text is bold**. This is another sentence.
